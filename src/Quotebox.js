@@ -11,7 +11,7 @@ export default function Quotesbox (){
     return(
 
         <div className="container">
-            <h1 className="position-center ">QUOTES</h1>
+            <h1 className="position-center ">Quotes</h1>
             <div className="row">
             <div className="col-4">
                 <div className="card">
