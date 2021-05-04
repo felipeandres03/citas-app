@@ -1,0 +1,98 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
+.span1{
+  font-size: 2rem;
+  text-align: start !important;
+}
+
+.span2{
+  font-size: 2rem;
+  text-align: end !important;
+}
+
+.App{
+  background-color: #3edbf0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.row{
+  width: 100%;
+  min-height: 12rem;
+  display: flex;
+  justify-content: center;
+
+}
+.col-4{
+  width: 33.333%;
+ }
+
+.col-5 p{
+  display:inline;
+
+}
+.text-white{
+
+  color:white
+}
+.card{
+  background-color:rgb(21, 21, 67);
+  border-radius: 10px;
+  height: 100%;
+  justify-content: center;
+  padding: 10px;
+}
+
+.quotes{
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.autor{
+  margin-top: 10px;
+  text-align: end;
+  padding-right: 40px;
+  font-size: 18px;
+}
+
+.position-end{
+
+  text-align: end;
+}
+.position-center{
+  text-align: center;
+}
+
+.button-next{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.5rem;
+  color: black;
+  background-color: rgb(60, 60, 255);
+  border: 0;
+  border-radius: 8px;
+
+}
